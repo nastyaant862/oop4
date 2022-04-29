@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
+
     double a = -0.6;
     double b = 5.3;
-    double z, t;
+    double t, z;
 
     if (a < b) {
         z = sqrt(abs(a * a - b * b));
